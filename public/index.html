@@ -5,10 +5,16 @@
     </head>
 
     <body>
-        <p>
-            Welcome to the Page
-        </p>
+        <p>Welcome to the Page</p>
+        <ul id="messages">
+            
+        </ul>
+        <form id="message-form">
+            <input name="message" type="text" placeholder="Message goes here..."/>
+            <button>Send</button>
+        </form>
         <script src="/socket.io/socket.io.js"></script>
+        <script src="/js/libs/jquery-3.2.1.min.js"></script>
         <script src="/js/index.js"></script>
     </body>
 </html>
